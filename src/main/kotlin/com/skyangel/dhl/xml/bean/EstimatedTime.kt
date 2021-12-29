@@ -4,5 +4,7 @@ import jakarta.xml.bind.annotation.*
 
 @XmlAccessorType(XmlAccessType.FIELD)
 data class EstimatedTime (
-        @XmlElement var GLogDate: Double = 0.0,
+        @XmlElement var GLogDate: Double? = null,
+        @XmlElement var TZId: String? = null,
+        @XmlElement var TZOffset: String? = null
 )
