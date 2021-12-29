@@ -6,5 +6,6 @@ import jakarta.xml.bind.annotation.*
 data class Release (
     @XmlElement var ReleaseGid: ReleaseGid? = null,
     @XmlElement var TransactionCode: String? = null,
+    @XmlElement var TimeWindow: TimeWindow? = null,
     @XmlElement var ReleaseLine: ReleaseLine? = null,
 )

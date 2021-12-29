@@ -8,6 +8,7 @@ data class ShipmentStop (
         @XmlElement var LocationRef: LocationRef? = null,
         @XmlElement var ArrivalTime: ArrivalTime? = null,
         @XmlElement var DepartureTime: DepartureTime? = null,
+        @XmlElement var AppointmentPickup: AppointmentPickup? = null,
         @XmlElement var ShipmentStopDetail: List<ShipmentStopDetail>? = null,
         @XmlElement var StopType: String? = null,
 )
